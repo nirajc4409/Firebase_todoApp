@@ -1,1 +1,1 @@
-# Firebase_todoApp
+# React-native app with Firebase

@@ -69,6 +69,7 @@ export default class App extends Component {
               <View style={styles.listItemCont}>
                 <Text style={styles.listItem}>{item.text}</Text>
                 <TouchableOpacity
+                  hitSlop={{top: 10, bottom: 10, left: 10, right: 10}}
                   style={styles.button}
                   onPress={() => this.deleteTask(item.id)}>
                   <Text>X</Text>
